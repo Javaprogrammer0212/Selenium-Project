@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9154" started-at="2020-06-02T14:57:41 IST" finished-at="2020-06-02T14:57:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9154" started-at="2020-06-02T14:57:41 IST" finished-at="2020-06-02T14:57:50 IST">
+      <class name="com.wellsfargo.TestCases.Module1">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.wellsfargo.TestCases.Module1@59e5ddf]" name="beforeSuite" is-config="true" duration-ms="148" started-at="2020-06-02T14:57:41 IST" finished-at="2020-06-02T14:57:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10ded6a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.wellsfargo.TestCases.Module1@59e5ddf]" name="beforeMethod" is-config="true" duration-ms="6030" started-at="2020-06-02T14:57:41 IST" finished-at="2020-06-02T14:57:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10ded6a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase1M1()[pri:0, instance:com.wellsfargo.TestCases.Module1@59e5ddf]" name="testCase1M1" duration-ms="532" started-at="2020-06-02T14:57:47 IST" finished-at="2020-06-02T14:57:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1M1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.wellsfargo.TestCases.Module1@59e5ddf]" name="afterMethod" is-config="true" duration-ms="2566" started-at="2020-06-02T14:57:48 IST" finished-at="2020-06-02T14:57:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase1M1 status=SUCCESS method=Module1.testCase1M1()[pri:0, instance:com.wellsfargo.TestCases.Module1@59e5ddf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:com.wellsfargo.TestCases.Module1@59e5ddf]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-06-02T14:57:50 IST" finished-at="2020-06-02T14:57:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10ded6a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.wellsfargo.TestCases.Module1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
